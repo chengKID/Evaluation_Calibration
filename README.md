@@ -37,4 +37,4 @@ $> ./calib_evaluation
 
 ## Points
 	Green points in image stand for reprojected points
-	Blur points in image stand for corner points in rectified image
+	Red points in image stand for corner points in rectified image
