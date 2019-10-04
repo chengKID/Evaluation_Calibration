@@ -17,11 +17,9 @@ Install OpenCV, C++
 
 A few updates to the instructions above were needed.
 
-* libvtk needed to be updated to libvtk6-dev instead of (libvtk5-dev). The linker was having trouble locating libvtk5-dev while building, but this might not be a problem for everyone.
-
 ```bash
 $> cd ~
-$> git clone https://github.com/chengKID/Lidar_Obstacle_Detection.git
+$> git clone https://github.com:chengKID/Evaluation_Calibration.git
 $> cd Evaluation_Calibration
 $> mkdir build && cd build
 $> cmake ..
