@@ -4,8 +4,8 @@ There are different methods to evaluate the accuracy. Here we use the reprojecti
 
 Our example:
 <p float="left">
-	<img src="media/evaluate_geometric_calib_2.png" width="700" height="400" />
-	<img src="media/evaluate_geometric_calib_3.png" width="700" height="400" />
+	<img src="media/evaluate_geometric_calib_2.png" width="400" height="229" />
+	<img src="media/evaluate_geometric_calib_3.png" width="400" height="229" />
 </p>
 
 ## Installation
