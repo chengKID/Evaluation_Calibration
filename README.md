@@ -3,7 +3,8 @@
 There are different methods to evaluate the accuracy. Here we use the reprojection error to determine the accuracy. First, we use homography to calculate the camera's pose with a know chessboard. Then the corners on the chessboard are projected to the image. Next, we remove the distortion of the image with the calibration information. And the corners are detected in the image, which are corresponding to the corners on the chessboard. Finally, we calculate the Normalised Mean Square Error (NMSE) to determine the accuracy. If the output error value is small, then the calibration is good. Otherwise, we need to recalibrate the camera.
 
 Our example:
-<p float="left">
+<!-- p float="left"-->
+<p align="middle">
 	<img src="media/evaluate_geometric_calib_2.png" width="400" height="229" />
 	<img src="media/evaluate_geometric_calib_3.png" width="400" height="229" />
 </p>
